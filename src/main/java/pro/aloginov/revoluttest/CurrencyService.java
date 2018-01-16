@@ -1,6 +1,5 @@
 package pro.aloginov.revoluttest;
 
-import pro.aloginov.revoluttest.exception.CurrencyNotFoundException;
 import pro.aloginov.revoluttest.model.Currency;
 
 import javax.inject.Singleton;
@@ -12,7 +11,7 @@ public class CurrencyService {
         try {
             return Currency.valueOf(name.toLowerCase());
         } catch (Exception e) {
-            throw new CurrencyNotFoundException(name);
+            return Currency.usd;
         }
     }
 
