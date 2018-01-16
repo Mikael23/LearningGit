@@ -24,6 +24,8 @@ public class UserController {
 
     @POST
     public UserCreationResponse createUser(UserCreationRequest request) {
+
+
         return new UserCreationResponse(userService.createUser(request.name));
     }
 
