@@ -8,7 +8,7 @@ public class LoginTest {
         //check password
         //...
 
-
+        //messageService.send(playerId)
 
         //ok, logged in
 
