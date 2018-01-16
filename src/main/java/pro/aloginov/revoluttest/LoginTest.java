@@ -8,6 +8,7 @@ public class LoginTest {
         //check password
         //...
 
+        //bonusService.add(playerId)
         //messageService.send(playerId)
 
         //ok, logged in
